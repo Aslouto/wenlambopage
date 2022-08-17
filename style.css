@@ -64,7 +64,22 @@ nav a:hover{
     color: #fff;
 }
 
+#twochains{
+    padding-top: 4rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 20rem;
+    position: relative;
+}
 
+
+.smartbch{
+    background-color: black;
+
+    width: 40%;
+    height: 50%;
+}
 
 
 
