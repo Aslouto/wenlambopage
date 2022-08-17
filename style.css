@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -57,3 +58,32 @@ color:#fff;
 img {
     margin-right: -3rem;
 }
+
+
+
+footer{
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+bottom: 0;
+
+}
+footer a{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1%;
+    position: relative;
+    bottom: 1rem;
+}
+footer img{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+footer img:hover{
+    background-color: rgb(182, 182, 17);
+}
+
+
