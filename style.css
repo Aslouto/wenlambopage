@@ -64,9 +64,12 @@ nav a:hover{
     color: #fff;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 39bb944793df947652f8d86ed8a3fbaeb2a4def9
 footer {
     padding-top: 1rem;
     width: 100%;
@@ -119,3 +122,19 @@ footer img:hover {
 footer a:hover {
     background-color: rgb(182, 182, 17);
 }
+
+#desc{
+    margin-left: 1rem;
+    font-size: 2.7rem;
+    width: 95%;
+    position: relative;
+    top: 2rem;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    user-select: none;
+}
+
+
