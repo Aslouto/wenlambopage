@@ -15,45 +15,52 @@ nav {
     margin-top: -6rem;
     width: 100%;
 
-    
+
 }
 
 ul {
     display: flex;
-   width: 80%;
-   margin-left: 8rem;
-   background-color: brown;
-   height: 6rem;
+    width: 100%;
+    background-color: brown;
+    height: 6rem;
 }
-li{
+
+li {
     list-style: none;
 }
-ul > li {
-justify-content: flex-start;
-align-items: center;
-align-content: center;
-margin-top: 3rem;
-padding-left: 4rem;
 
-position: relative;
-left: 30%;
-top: -10%;
+ul>li {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: 3rem ;
+    position: relative;
+    left: 12%;
+    top: -10%;
 
 }
 
 
 
 nav img {
+margin-left: 4rem;
     cursor: pointer;
-    max-width: 5vw;
+    max-width: 7vw;
     max-height: 17vh;
 }
 
 nav a {
-font-size: 1.3rem;
-color: #fff;
-text-decoration: none;
-cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+}
+nav a:hover{
+    color: #fff;
 }
 
 
