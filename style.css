@@ -19,18 +19,25 @@ nav {
 }
 
 ul {
+    display: flex;
    width: 80%;
    margin-left: 8rem;
    background-color: brown;
    height: 6rem;
 }
-
+li{
+    list-style: none;
+}
 ul > li {
-display: inline-block;
-margin: .2rem 5rem 1rem 2rem;
-padding: 2%;
+justify-content: flex-start;
+align-items: center;
+align-content: center;
+margin-top: 3rem;
+padding-left: 4rem;
+
 position: relative;
-top:-10%;
+left: 30%;
+top: -10%;
 
 }
 
