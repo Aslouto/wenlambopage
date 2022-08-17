@@ -64,25 +64,6 @@ nav a:hover{
     color: #fff;
 }
 
-#twochains{
-    padding-top: 4rem;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    height: 20rem;
-    position: relative;
-}
-
-
-.smartbch{
-    background-color: black;
-
-    width: 40%;
-    height: 50%;
-}
-
-
-
 footer {
     padding-top: 1rem;
     width: 100%;
@@ -135,3 +116,19 @@ footer img:hover {
 footer a:hover {
     background-color: rgb(182, 182, 17);
 }
+
+#desc{
+    margin-left: 1rem;
+    font-size: 2.7rem;
+    width: 95%;
+    position: relative;
+    top: 2rem;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    user-select: none;
+}
+
+
