@@ -9,7 +9,7 @@
 
 body {
     padding: 4rem 0 3rem;
-    background-color: #ccc;
+    background: #4c4079,;
 }
 
 nav {
@@ -66,15 +66,44 @@ nav a:hover {
     color: #fff;
 }
 
-main {
-    width: 100%;
-    height: 150vh;
+
+#description{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    background-color: #000;
+    width: 80vw;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.desc {
+    margin-left: 1rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+    width: 55%;
+    position: relative;
+    top: 3rem;
+    color: white;
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#nft {
+  width: 25rem;
+  height: 15rem;
+  position: relative;
+  top: -7rem;
+  left: 60%;
+  display: inline-block;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
-
 footer {
     padding-top: 1rem;
     width: 100%;
@@ -115,22 +144,7 @@ footer img {
 
 }
 
-
-
-
 footer .info:hover {
     background-color: rgb(182, 182, 17);
 }
 
-.desc {
-    margin-left: 1rem;
-    font-size: 1.5rem;
-    width: 55%;
-    position: relative;
-    top: 3rem;
-    color: white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-weight: bold;
-}
