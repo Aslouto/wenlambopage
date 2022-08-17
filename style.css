@@ -71,19 +71,29 @@ bottom: 0;
 
 }
 footer a{
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-right: 1%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
     position: relative;
     bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
 }
 footer img{
     width: 2.5rem;
     height: 2.5rem;
     position: relative;
 }
-footer img:hover{
+footer a:hover{
     background-color: rgb(182, 182, 17);
 }
+
 
 
