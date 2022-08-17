@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;;
     cursor: default;
 }
 
 
 body {
     padding-top: 6rem;
-
+background-color: #ccc;
 }
 
 nav {
@@ -21,8 +21,8 @@ nav {
 ul {
     display: flex;
     width: 100%;
-    background-color: brown;
-    height: 6rem;
+    background: radial-gradient(circle at 50% 50%, #888,#000);
+    height: 4rem;
 }
 
 li {
@@ -33,9 +33,9 @@ ul>li {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    margin: 3rem ;
+    margin: 2rem 1rem ;
     position: relative;
-    left: 12%;
+    left:0;
     top: -10%;
 
 }
@@ -43,15 +43,16 @@ ul>li {
 
 
 nav img {
-margin-left: 4rem;
+margin-left: 3rem;
+margin-top: 0;
     cursor: pointer;
-    max-width: 7vw;
-    max-height: 17vh;
+    max-width: 5vw;
+    max-height: 15vh;
 }
 
 nav a {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ccc;
     text-decoration: none;
     cursor: pointer;
@@ -66,6 +67,7 @@ nav a:hover{
 
 
 
+
 footer {
     padding-top: 1rem;
     width: 100%;
@@ -73,7 +75,7 @@ footer {
     justify-content: flex-start;
     position: fixed;
     bottom: 0;
-
+    background: radial-gradient(circle at 50% 50%, #888,#000);
 }
 
 
@@ -83,6 +85,9 @@ footer a {
     margin-right: 1%;
 
 }
+
+
+
 
 footer a {
     width: 3rem;
