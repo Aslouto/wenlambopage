@@ -68,9 +68,9 @@ nav a:hover {
 
 #description{
     margin-top: 5rem;
-    margin-left: 8rem;
+    margin-left: 16rem;
     background: #fff;
-    width: 80vw;
+    width: 60vw;
     height: 40vh;
     position: relative;
     overflow: hidden;
@@ -92,15 +92,20 @@ nav a:hover {
 
 
 #nft {
-  width: 25rem;
-  height: 14rem;
+  
+  width: 14rem;
+  height: 8rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: #000 2px solid;
   position: relative;
-  top: -6.5rem;
+  top: -7.8rem;
   left: 60%;
   display: inline-block;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -138,9 +143,11 @@ footer img {
     height: 2.5rem;
     position: relative;
     cursor: pointer;
+    border-radius: 5rem;
 }
 .chains{
     width: 10rem;
+    height: 3rem;
 
 }
 
