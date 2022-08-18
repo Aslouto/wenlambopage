@@ -69,7 +69,8 @@ nav a:hover {
 #description{
     margin-top: 5rem;
     margin-left: 16rem;
-    background: #fff;
+    background-color: #515;
+    border: 3px solid #115;
     width: 60vw;
     height: 40vh;
     position: relative;
@@ -83,7 +84,7 @@ nav a:hover {
     width: 55%;
     position: relative;
     top: 3rem;
-    color: #000;
+    color: #fff;
     text-align: start;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -118,7 +119,7 @@ nav a:hover {
     text-align:center;
     width: 40rem;
     height: 14rem;
-    background-color: #505;
+    background-color: transparent;
     position: relative;
     left: 25%;
     margin-bottom: 25rem;
@@ -129,7 +130,11 @@ nav a:hover {
 #tittle{
     color: #fff;
     font-size: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
+    border: .5rem solid #004;
+    border-bottom: none;
+    border-radius: 4.5rem;
+    background-color: #515;
 }
 
 #toke-container{
@@ -137,7 +142,12 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    background-color: #004;
+    background-color: transparent;
+    border: .5rem solid #004;
+    border-top: none;
+    border-radius: 2rem;
+    background-color: #515;
+    padding-top: 1rem;
     height: 100%;
     width: 100%;
 
