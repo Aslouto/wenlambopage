@@ -65,7 +65,7 @@ nav a:hover {
     color: #fff;
 }
 
-
+/*CARDS*/
 #description{
     margin-top: 5rem;
     margin-left: 16rem;
@@ -107,8 +107,72 @@ nav a:hover {
     background-size: cover;
     
 }
+/*CARDS END*/
 
 
+
+
+/*TOKENOMICS*/
+#toke-section{
+    margin-top: 10rem;
+    text-align:center;
+    width: 40rem;
+    height: 14rem;
+    background-color: #505;
+    position: relative;
+    left: 25%;
+    margin-bottom: 25rem;
+  
+}
+
+
+#tittle{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#toke-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #004;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.tokenomics{
+    position: relative;
+    box-sizing: content-box;
+    padding:0 2rem 10rem;
+}
+
+.text-container{
+    position: relative;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.text-container h4{
+    font-size: 1rem;
+}
+.icon-container{
+background-color: #dcd;
+border-radius: 50%;
+padding: 2rem;
+}
+.icon{
+    font-size: 3rem;
+    color: #a0a;
+}
+
+/*END TOKENOMICS*/
+
+
+/*FOOTER*/
 footer {
     padding-top: 1rem;
     width: 100%;
