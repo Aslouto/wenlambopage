@@ -77,15 +77,23 @@ nav a:hover {
     overflow: hidden;
     border-radius: 1rem;
 }
+
+#description h2{
+color: #fff;
+display: inline;
+font-size: 2rem;
+position: absolute;
+margin-left: 1rem;
+margin-top: .5rem;
+}
+
 .desc {
-    margin-left: 1rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
     font-size: 1rem;
     width: 55%;
     position: relative;
-    top: 3rem;
+    top: 3.5rem;
     color: #fff;
-    text-align: start;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: bold;
