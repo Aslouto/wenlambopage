@@ -69,7 +69,7 @@ nav a:hover {
 #description{
     margin-top: 5rem;
     margin-left: 8rem;
-    background-color: #000;
+    background: #fff;
     width: 80vw;
     height: 40vh;
     position: relative;
@@ -83,7 +83,7 @@ nav a:hover {
     width: 55%;
     position: relative;
     top: 3rem;
-    color: white;
+    color: #000;
     text-align: start;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -93,16 +93,17 @@ nav a:hover {
 
 #nft {
   width: 25rem;
-  height: 15rem;
+  height: 14rem;
   position: relative;
-  top: -7rem;
+  top: -6.5rem;
   left: 60%;
   display: inline-block;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
+
+
 footer {
     padding-top: 1rem;
     width: 100%;
