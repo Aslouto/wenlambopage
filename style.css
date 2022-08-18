@@ -7,8 +7,8 @@
 
 
 body {
-    padding: 4rem 0 3rem;
-    background: radial-gradient(circle at 50% 50%, #4c4079, #6d58b1,#6d58b1, #88009ad8 );
+    padding: 4rem 0 0;
+    background: linear-gradient(90deg, #88009ad8,#4c4079, #6d58b1,#6d58b1, #88009ad8 );
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
 ul {
     display: flex;
     width: 100%;
-    background: radial-gradient(circle at 50% 50%, #6d58b1, #000);
+    background: radial-gradient(circle at 50% 50%, #515, #000);
     height: 4rem;
 }
 
@@ -44,10 +44,10 @@ ul>li {
 
 nav img {
     margin-left: 3rem;
-    margin-top: 0;
+    margin-top: .3rem;
     cursor: pointer;
-    max-width: 5vw;
-    max-height: 15vh;
+    max-width: 4vw;
+    max-height: 12vh;
 }
 
 nav a {
@@ -99,8 +99,15 @@ margin-top: .5rem;
     font-weight: bold;
 }
 
+/*Second Description(reverse) */
+#desc{
+    top: 4rem;
+    left: 38%;
+text-align: end;
+}
 
-#nft {
+
+#nft, #nft1, #nft2 {
   
   width: 14rem;
   height: 8rem;
@@ -116,6 +123,29 @@ margin-top: .5rem;
     background-size: cover;
     
 }
+
+
+
+#nft1{
+    left: 5%;
+    top: -6.5rem;
+    margin-top: 3rem;
+    height: 5rem;
+    background-image: url(images/mint.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nft2{
+    margin-top: 2rem;
+    padding: none;
+    height: 4rem;
+    background-image: url(images/staking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /*CARDS END*/
 
 
@@ -196,9 +226,10 @@ footer {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    background: radial-gradient(circle at 50% 50%, #6d58b1, #000);
+    background-color: #000;
+    /* background: radial-gradient(circle at 50% 50%, #6d58b1, #000); */
 }
 
 
@@ -237,3 +268,41 @@ footer .info:hover {
     background-color: rgb(182, 182, 17);
 }
 
+
+/*RESPONSIVE DESIGN*/
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                background-color: red;
+            }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                background-color: yellow;
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                background-color: blue;
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                background-color: green;
+            }
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            body {
+                background-color: white;
+            }
+
+        }
