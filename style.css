@@ -151,14 +151,15 @@ nav a:hover {
     height: 40%;
     position: relative;
     margin-left: 3%;
-    top: -25%;
+    top: -35%;
 }
 .about-nft h2 {
     position: relative;
-    top: 70%;
+    top: 80%;
     left: 55%;
-    font-size: 2rem 
+    font-size: 2rem;
 }
+
 
 
 /*CARDS END*/
